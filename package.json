@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "build/main.js",
+  "bin": "bin/fast-clone",
   "scripts": {
     "dev": "backpack",
     "build": "backpack build"
