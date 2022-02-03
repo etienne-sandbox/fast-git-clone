@@ -5,15 +5,18 @@
   "main": "build/main.js",
   "bin": "bin/fast-clone",
   "scripts": {
-    "dev": "backpack",
-    "build": "backpack build"
+    "dev": "node build.js -w",
+    "build": "node build.js"
   },
   "keywords": [],
   "author": "Etienne Dldc",
   "license": "MIT",
   "dependencies": {
-    "backpack-core": "^0.8.4",
     "git-pull-or-clone": "^2.0.1",
     "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.18",
+    "estrella": "^1.4.1"
   }
 }
