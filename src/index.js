@@ -7,7 +7,7 @@ import * as os from "node:os";
 try {
   await main();
 } catch (error) {
-  console.error(err);
+  console.error(error);
   process.exit(1);
 }
 
