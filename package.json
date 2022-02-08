@@ -11,7 +11,7 @@
     "fast-clone": "./src/index.js"
   },
   "scripts": {
-    "run": "node ./src/index.js"
+    "start": "node ./src/index.js"
   },
   "dependencies": {
     "git-pull-or-clone": "^2.0.1",
